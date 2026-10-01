@@ -1,0 +1,9 @@
+source_id,scenario,environment,stack,N,g_m_s2,rho_kg_m3,h_m,mu,crossover_c_pa,cohesion_low_pa,cohesion_high_pa,eta_low_c_over_cstar,eta_high_c_over_cstar,regime,parameter_status
+NASA_TM_2016_shallow,upper 0-15 cm lunar regolith,Earth,single_unit_N1,1,9.80665,1800.0,0.1,0.6,1059.1182,440,620,0.4154399386206375,0.5853926407836255,friction_dominant,regolith material-transfer scenario
+NASA_TM_2016_shallow,upper 0-15 cm lunar regolith,Earth,four_units_N4,4,9.80665,1800.0,0.1,0.6,4236.4728,440,620,0.10385998465515937,0.14634816019590638,friction_dominant,regolith material-transfer scenario
+NASA_TM_2016_shallow,upper 0-15 cm lunar regolith,Moon,single_unit_N1,1,1.62,1800.0,0.1,0.6,174.96,440,620,2.5148605395518975,3.5436671239140374,cohesion_dominant,regolith material-transfer scenario
+NASA_TM_2016_shallow,upper 0-15 cm lunar regolith,Moon,four_units_N4,4,1.62,1800.0,0.1,0.6,699.84,440,620,0.6287151348879744,0.8859167809785093,friction_dominant,regolith material-transfer scenario
+NASA_TM_2016_Apollo_model,Apollo-model broad average,Earth,single_unit_N1,1,9.80665,1800.0,0.1,0.6,1059.1182,100,1000,0.0944181678683267,0.944181678683267,friction_dominant,regolith material-transfer scenario
+NASA_TM_2016_Apollo_model,Apollo-model broad average,Earth,four_units_N4,4,9.80665,1800.0,0.1,0.6,4236.4728,100,1000,0.023604541967081675,0.23604541967081674,friction_dominant,regolith material-transfer scenario
+NASA_TM_2016_Apollo_model,Apollo-model broad average,Moon,single_unit_N1,1,1.62,1800.0,0.1,0.6,174.96,100,1000,0.5715592135345221,5.715592135345221,band_crosses_crossover,regolith material-transfer scenario
+NASA_TM_2016_Apollo_model,Apollo-model broad average,Moon,four_units_N4,4,1.62,1800.0,0.1,0.6,699.84,100,1000,0.14288980338363053,1.4288980338363053,band_crosses_crossover,regolith material-transfer scenario

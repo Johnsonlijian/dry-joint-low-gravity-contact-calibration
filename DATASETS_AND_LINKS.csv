@@ -1,0 +1,8 @@
+Path,Role,Status,Link,Use boundary
+Costa2024,Published dry-stone benchmark summary,VERIFIED,https://doi.org/10.3390/buildings14123744,Earth-gravity Table 2 summary transcription
+Costa2024_supplement,Publisher supplementary workbook,PROVENANCE_ONLY,https://mdpi-res.com/d_attachment/buildings/buildings-14-03744/article_deploy/buildings-14-03744-s001.zip,Not redistributed; ambiguous multi-series layout and formula-error cells
+Wang2026,Lunar unprocessed-stone computational design,VERIFIED,https://doi.org/10.1038/s44453-025-00022-9,Context and design workflow; not validation data
+Madden2025,Lunar regolith simulant gravity study,VERIFIED,https://doi.org/10.1038/s41526-025-00501-z,Granular-simulant context; not block-joint calibration
+Marshall2018,Reduced-gravity sand failure study,VERIFIED,https://doi.org/10.1016/j.jmps.2018.01.005,Granular mechanics context; not dry-stone wall calibration
+IcarusCE52025,Chang-E5 regolith simulant friction scenario,VERIFIED,https://doi.org/10.1016/j.icarus.2025.116764,Transfer scenario only
+NASA2016,NASA lunar regolith cohesion memorandum,VERIFIED,https://www.nasa.gov/wp-content/uploads/2015/01/nasa-tm-2016-219011-arm-fast-final-report_0.pdf,Transfer scenario only

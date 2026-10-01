@@ -1,0 +1,5 @@
+source,orientation,N,mode,n,observed_alpha_deg,observed_sd_deg,observed_cov_pct,dominance_fraction,mu_eff,mu_sd_first_order,delta_mu_vs_wang_0p6,calibration_role
+Costa2024,concrete_parallel,2,sliding,22,30.8,1.8,6,0.7333333333333333,0.5961196403932975,0.042579847013612906,-0.0038803596067025214,sliding-dominant proxy
+Costa2024,concrete_perpendicular,2,sliding,28,33.3,2.8,8,0.9333333333333333,0.6568772224012792,0.06995568526913491,0.05687722240127924,sliding-dominant proxy
+Costa2024,concrete_perpendicular,3,sliding,30,32.6,1.3,4,1.0,0.6395266805826324,0.031969068285595495,0.03952668058263242,sliding-dominant proxy
+Costa2024,concrete_perpendicular,4,sliding,10,31.8,0.8,3,0.3333333333333333,0.6200262690160842,0.01933032535429802,0.020026269016084175,mixed-case diagnostic only

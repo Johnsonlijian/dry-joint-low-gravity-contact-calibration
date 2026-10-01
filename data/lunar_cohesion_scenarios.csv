@@ -1,0 +1,3 @@
+source_id,scenario,cohesion_pa_low,cohesion_pa_high,parameter_status,source_note
+NASA_TM_2016_shallow,upper 0-15 cm lunar regolith,440,620,regolith material-transfer scenario,reported shallow lunar-regolith cohesion interval
+NASA_TM_2016_Apollo_model,Apollo-model broad average,100,1000,regolith material-transfer scenario,reported broad lunar-regolith cohesion interval

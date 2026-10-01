@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If this local repository is released, please verify the author metadata and manuscript version first."
+title: "Dry-joint contact-state variability under reduced gravity"
+type: software
+version: "2026-10-01"
+date-released: 2026-10-01
+license: MIT
+repository-code: "https://github.com/Johnsonlijian/dry-joint-low-gravity-contact-calibration"
+authors:
+  - family-names: "Ren"
+    given-names: "Lijian"
+    affiliation: "To be verified before public release"
+keywords:
+  - dry-joint masonry
+  - reduced gravity
+  - contact variability
+  - structural mechanics

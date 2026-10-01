@@ -1,0 +1,9 @@
+orientation,N,opening_angle_deg,min_scenario_friction_angle_deg,max_scenario_friction_angle_deg,range_crosses_boundary
+concrete_parallel,2,32.005383208083494,29.2,43.0,True
+concrete_parallel,3,22.619864948040426,29.2,43.0,False
+concrete_parallel,4,17.35402463626132,29.2,43.0,False
+concrete_parallel,5,14.036243467926479,29.2,43.0,False
+concrete_perpendicular,2,51.34019174590991,29.2,43.0,False
+concrete_perpendicular,3,39.80557109226519,29.2,43.0,True
+concrete_perpendicular,4,32.005383208083494,29.2,43.0,True
+concrete_perpendicular,5,26.56505117707799,29.2,43.0,False

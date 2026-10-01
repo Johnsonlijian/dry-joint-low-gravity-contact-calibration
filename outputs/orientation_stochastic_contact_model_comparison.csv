@@ -1,0 +1,3 @@
+model,mu_mean,mu_sd_proxy,calibration_groups
+pooled scalar contact,0.6336624341670917,0.04818234838003903,3
+orientation-specific contact,,,3

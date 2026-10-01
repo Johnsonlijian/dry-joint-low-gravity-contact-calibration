@@ -1,0 +1,2 @@
+comparison,geometry_ratio_range,opening_angle_range_deg,sliding_angle_deg,absolute_slide_fraction_difference,interpretation
+parallel_N2_vs_perpendicular_N4,0.0,0.0,30.96375653207352,0.39999999999999997,same scalar geometry score but different observed mode fractions

@@ -1,0 +1,3 @@
+orientation,N,validation_role,mu_mean,mu_sd_proxy,critical_mu_for_sliding,predicted_sliding_fraction,pooled_scalar_predicted_fraction,pooled_scalar_absolute_error,observed_sliding_fraction,observed_wilson95_low,observed_wilson95_high,absolute_fraction_error,observed_sliding_count,observed_total_count
+concrete_parallel,2,in-sample orientation fit,0.5961196403932975,0.0425798470136129,0.625,0.7511977078902368,0.42866091900723396,0.3046724143260993,0.7333333333333333,0.5555169795568831,0.8581750444608938,0.017864374556903484,22,30
+concrete_perpendicular,4,held-out course count,0.6479028042192204,0.05030743510523516,0.625,0.3244622343021597,0.42866091900723396,0.09532758567390065,0.3333333333333333,0.19230295526846194,0.5122027418616973,0.008871099031173613,10,30

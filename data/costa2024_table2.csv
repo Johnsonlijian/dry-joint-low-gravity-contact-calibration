@@ -1,0 +1,17 @@
+source,orientation,N,mode,n,observed_alpha_deg,observed_sd_deg,observed_cov_pct
+Costa2024,concrete_parallel,2,sliding,22,30.8,1.8,6
+Costa2024,concrete_parallel,2,toppling,8,31.3,1.9,6
+Costa2024,concrete_parallel,3,sliding,0,,,0
+Costa2024,concrete_parallel,3,toppling,30,23.1,0.6,2
+Costa2024,concrete_parallel,4,sliding,0,,,0
+Costa2024,concrete_parallel,4,toppling,30,16.7,1.4,8
+Costa2024,concrete_parallel,5,sliding,0,,,0
+Costa2024,concrete_parallel,5,toppling,30,13.1,0.9,7
+Costa2024,concrete_perpendicular,2,sliding,28,33.3,2.8,8
+Costa2024,concrete_perpendicular,2,toppling,2,33.3,1.3,4
+Costa2024,concrete_perpendicular,3,sliding,30,32.6,1.3,4
+Costa2024,concrete_perpendicular,3,toppling,0,,,0
+Costa2024,concrete_perpendicular,4,sliding,10,31.8,0.8,3
+Costa2024,concrete_perpendicular,4,toppling,20,31.1,1.1,4
+Costa2024,concrete_perpendicular,5,sliding,0,,,0
+Costa2024,concrete_perpendicular,5,toppling,30,26.6,0.4,2

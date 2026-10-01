@@ -1,0 +1,5 @@
+source_id,material,friction_angle_deg,parameter_status,source_note
+Icarus2025_range_low,CE-5 lunar regolith scenario,29.2,granular-regolith scenario only,in-situ estimated lower bound reported for CE-5 site
+Icarus2025_TJCE5,TJ-CE5 simulant,36.9,granular-regolith measured value,measured internal friction angle of simulant
+Icarus2025_range_high,CE-5 lunar regolith scenario,43.0,granular-regolith scenario only,in-situ estimated upper bound reported for CE-5 site
+Wang2026_contact,unprocessed-stone dry joint,30.9637565,model input only,mu=0.6 in cohesionless NSCD scenario
