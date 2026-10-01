@@ -12,7 +12,14 @@ from matplotlib.patches import FancyArrowPatch, Rectangle
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT.parent / "manuscript" / "figures"
+# In the submission package, keep the conceptual figure with the manuscript;
+# in the standalone public reproducibility tree, write it to that tree's
+# outputs directory rather than modifying a sibling project directory.
+OUT = (
+    ROOT.parent / "manuscript" / "figures"
+    if (ROOT.parent / "manuscript").exists()
+    else ROOT / "outputs"
+)
 OUT.mkdir(parents=True, exist_ok=True)
 
 
