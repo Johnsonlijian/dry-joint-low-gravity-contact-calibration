@@ -35,4 +35,5 @@ The repository is released under the MIT licence for the code and derived
 non-sensitive outputs. Third-party source data remain linked, not
 redistributed. The canonical public remote is
 `https://github.com/Johnsonlijian/dry-joint-low-gravity-contact-calibration`.
-An archival Zenodo record will be linked here once its public DOI is minted.
+The archival reproducibility package is available at
+`https://doi.org/10.5281/zenodo.23094016`.

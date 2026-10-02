@@ -6,6 +6,9 @@ version: "2026-10-01"
 date-released: 2026-10-01
 license: MIT
 repository-code: "https://github.com/Johnsonlijian/dry-joint-low-gravity-contact-calibration"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23094016"
 authors:
   - family-names: "Ren"
     given-names: "Lijian"
