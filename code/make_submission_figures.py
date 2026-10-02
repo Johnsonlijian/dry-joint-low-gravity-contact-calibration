@@ -54,16 +54,18 @@ def main():
     ax1.set_xlim(0, 1.0); ax1.set_ylim(0, 1.13); ax1.axis("off")
 
     # (b) geometry-equivalent cases and contact architecture
-    draw_stack(ax2, 0.10, 0.22, 0.25, 0.24, 2, color="#dcfce7")
-    draw_stack(ax2, 0.56, 0.22, 0.50, 0.17, 4, color="#fef3c7")
+    # Use the same scalar geometry score in the drawing as in the text:
+    # b/(2h)=0.225/(2*0.18)=0.625 and b/(4h)=0.45/(4*0.18)=0.625.
+    draw_stack(ax2, 0.08, 0.22, 0.225, 0.18, 2, color="#dcfce7")
+    draw_stack(ax2, 0.58, 0.22, 0.45, 0.18, 4, color="#fef3c7")
     ax2.add_patch(Rectangle((0.02, 0.12), 1.07, 0.08, facecolor="#e5e7eb", edgecolor="#4b5563"))
-    ax2.text(0.23, 0.65, r"$b/(Nh)=0.625$", ha="center", fontsize=10)
-    ax2.text(0.81, 0.65, r"$b/(Nh)=0.625$", ha="center", fontsize=10)
-    ax2.text(0.23, 0.03, "parallel, N=2", ha="center", fontsize=9)
-    ax2.text(0.81, 0.03, "perpendicular, N=4", ha="center", fontsize=9)
-    ax2.annotate("same scalar threshold", xy=(0.50, 0.55), xytext=(0.50, 0.90), ha="center",
-                 arrowprops=dict(arrowstyle="<->", color="#374151"), fontsize=9)
-    ax2.text(0.50, 1.07, "(b) scalar identifiability limit", ha="center", fontweight="bold")
+    ax2.text(0.1925, 0.99, r"$b/(Nh)=0.625$", ha="center", fontsize=9.5)
+    ax2.text(0.805, 0.99, r"$b/(Nh)=0.625$", ha="center", fontsize=9.5)
+    ax2.text(0.1925, 0.03, "parallel, N=2", ha="center", fontsize=9)
+    ax2.text(0.805, 0.03, "perpendicular, N=4", ha="center", fontsize=9)
+    ax2.annotate("same scalar\nthreshold", xy=(0.44, 0.80), xytext=(0.44, 0.93), ha="center",
+                 va="center", arrowprops=dict(arrowstyle="<->", color="#374151"), fontsize=8.5)
+    ax2.text(0.50, 1.07, "(b) scalar identifiability limit", ha="center", fontweight="bold", fontsize=9.5)
     ax2.set_xlim(0, 1.1); ax2.set_ylim(0, 1.13); ax2.axis("off")
 
     # (c) mechanism chain
@@ -75,9 +77,11 @@ def main():
     for x, y, w, h, label in boxes:
         ax3.add_patch(Rectangle((x, y), w, h, facecolor="#f3f4f6", edgecolor="#111827", linewidth=1.1))
         ax3.text(x + w / 2, y + h / 2, label, ha="center", va="center", fontsize=10)
-    for y in (0.60, 0.31):
-        ax3.add_patch(FancyArrowPatch((0.50, y), (0.50, y - 0.08), arrowstyle="-|>", mutation_scale=13, linewidth=1.2, color="#374151"))
-    ax3.text(0.50, 1.07, "(c) proposed contact-law mechanism", ha="center", fontweight="bold")
+    # Place arrows in the actual gaps between boxes, rather than inside the
+    # destination boxes, so the causal chain is visually unambiguous.
+    for y0, y1 in ((0.69, 0.60), (0.40, 0.31)):
+        ax3.add_patch(FancyArrowPatch((0.50, y0), (0.50, y1), arrowstyle="-|>", mutation_scale=13, linewidth=1.2, color="#374151"))
+    ax3.text(0.50, 1.07, "(c) proposed contact-law mechanism", ha="center", fontweight="bold", fontsize=9.5)
     ax3.set_xlim(0, 1.0); ax3.set_ylim(0, 1.13); ax3.axis("off")
 
     fig.savefig(OUT / "fig1_mechanism_schematic.png", dpi=300)
