@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If this local repository is released, please verify the author metadata and manuscript version first."
+message: "If you use these scripts or derived outputs, please cite the repository and the associated manuscript."
 title: "Dry-joint contact-state variability under reduced gravity"
 type: software
 version: "2026-10-01"
@@ -9,7 +9,8 @@ repository-code: "https://github.com/Johnsonlijian/dry-joint-low-gravity-contact
 authors:
   - family-names: "Ren"
     given-names: "Lijian"
-    affiliation: "To be verified before public release"
+    affiliation: "School of Civil Engineering, Inner Mongolia University of Technology, Hohhot 010051, China"
+    orcid: "https://orcid.org/0000-0003-1629-4368"
 keywords:
   - dry-joint masonry
   - reduced gravity

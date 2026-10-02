@@ -1,15 +1,15 @@
-# Public reproducibility repository draft
+# Dry-joint contact-state variability under reduced gravity
 
 This repository contains the reproducible analysis assets for the manuscript
 **Contact-state variability and stack-height dilution govern when reduced gravity
 changes dry-joint stability**.
 
-It is a local preparation tree. It contains source scripts, clearly labelled
-input tables, derived CSV/PNG/SVG outputs, a pinned Python environment, and
-source links. It intentionally excludes the manuscript, cover letter,
-submission records, internal audits, private author information, and the
-publisher-supplied Costa workbook because redistribution rights and author
-approval are not yet confirmed.
+It contains source scripts, clearly labelled input tables, derived
+CSV/PNG/SVG outputs, a pinned Python environment, and source links. It
+intentionally excludes the manuscript, cover letter, submission records,
+internal audits, private author information, and the publisher-supplied Costa
+workbook because redistribution rights and the publisher's supplementary-file
+licence do not permit us to redistribute that workbook here.
 
 ## Reproduce
 
@@ -25,12 +25,14 @@ control. These are internal benchmark diagnostics, not external validation or
 lunar joint measurements.
 
 See `DATASETS_AND_LINKS.csv`, `REPRODUCIBLE_RUNBOOK.md`, and
-`REPRO_MANIFEST.csv` for provenance and file fingerprints.
+`REPRO_MANIFEST.csv` for provenance and file fingerprints. The repository is
+the code/data companion for the manuscript; it is not itself evidence of
+external validation or journal acceptance.
 
 ## Release boundary
 
-The repository is `LOCAL_ONLY / NOT_PUBLISHED`. Before any public release,
-verify the author list, license compatibility, third-party data rights, DOI
-metadata, and the final manuscript version. The intended GitHub remote is
-`https://github.com/Johnsonlijian/dry-joint-low-gravity-contact-calibration.git`;
-no remote repository has been created or pushed by this task.
+The repository is released under the MIT licence for the code and derived
+non-sensitive outputs. Third-party source data remain linked, not
+redistributed. The canonical public remote is
+`https://github.com/Johnsonlijian/dry-joint-low-gravity-contact-calibration`.
+An archival Zenodo record will be linked here once its public DOI is minted.
